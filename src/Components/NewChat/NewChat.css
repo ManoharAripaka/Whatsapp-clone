@@ -1,0 +1,113 @@
+.maintop{
+    width: 100%;
+    height: 99vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(170, 170, 170, 0.555);
+}
+.new{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#close{
+    text-align: right;
+    margin: 10px;
+    color: red;
+    cursor: pointer;
+}
+.newchat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+#title{
+    margin-top: 30px
+}
+.num{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -30px
+}
+#country{
+    padding: 8px;
+}
+#number{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+#validate{
+    margin-top: 20px;
+    border: 2px solid orange;
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: -5px;
+    font-weight: 700;
+    transition-duration: 200ms;
+}
+#validate:hover{
+    background-color: orange;
+    color: white;
+}
+#reset{
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    color: red;
+    margin-left: -5px;
+    cursor: pointer;
+}
+#reset:hover, #close:hover{
+    text-decoration: underline;
+}
+#start{
+    margin-top: 20px;
+    margin-left: -5px;
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    padding: 8px 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+#start:hover{
+    background-color: green;
+    color: white
+}
+.toast-success{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.toast-error{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.toast-warning{
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}

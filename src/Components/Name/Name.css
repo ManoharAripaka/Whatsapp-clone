@@ -1,0 +1,68 @@
+.mainn{
+    width: 100%;
+    height: 99vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(170, 170, 170, 0.555);
+}
+.nameChange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#imageIcon{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(216, 209, 209);
+    margin-top: -0px;
+    border-radius: 50%;
+    color: grey; 
+}
+#file{
+    color: transparent;
+    background-color: white;
+    width: 103px;
+    margin-top: 10px;
+}
+#file::-webkit-file-upload-button{
+    visibility: hidden;
+}
+#file::before {
+    content: 'Upload Image';
+    color: black;
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+}
+#textt{
+    border: none;
+    width: 200px;
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+#save{
+    background-color: green;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}

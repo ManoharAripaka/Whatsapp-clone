@@ -1,0 +1,73 @@
+.chats, .no{
+    max-height: 81vh;
+    cursor: pointer;
+}
+.chat{
+    display: flex;
+    align-items: center;
+}
+.chat-left{
+    flex: 1
+}
+.chat-left #chat-icon{
+    padding: 12px;
+    margin: 10px 15px;
+    border-radius: 50px;
+    background-color: rgb(238, 234, 234);
+}
+.chat-center{
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.chat-center #profile{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.chat-center #text{
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-left: -10px;
+    text-align: left;
+    font-size: 14px;
+}
+.chat-right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 15px;
+}
+.chat-right #time{
+    font-size: 12px;
+    color: green;
+    font-weight: bold;
+    width: 55px;
+}
+.chat-right #count{
+    width: fit-content;
+    padding: 1px 4px;
+    font-size: 11px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-top: 3px;
+}
+#line{
+    margin-right: 5px;
+    margin-left: 80px;
+}
+.chat:hover{
+    background-color: #eff3f3;
+}
+.chatssss{
+    background-color: red;
+    font-size: 100px;
+}
